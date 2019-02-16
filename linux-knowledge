@@ -1,0 +1,2 @@
+# create a random file with size 107474182 
+head -c 107374182 </dev/urandom >myfile
