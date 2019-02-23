@@ -11,3 +11,5 @@
 ### LVM (Logical Volume Manager)
 Allows the creation of "groups' of disks or partitions that can be assembled into a single (or multiple) filesystems:
  - Can be used for nearly any mount point Except /boot
+ - Flexibility -allows for resizing of volumes
+ - Snapshots - allows for "point in time" copies of your logical volume
