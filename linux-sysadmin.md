@@ -9,11 +9,14 @@
 
 
 ### LVM (Logical Volume Manager)
-#### Allows the creation of "groups' of disks or partitions that can be assembled into a single (or multiple) filesystems:
+- #### Allows the creation of "groups' of disks or partitions that can be assembled into a single (or multiple) filesystems:
  - Can be used for nearly any mount point Except /boot
  - Flexibility -allows for resizing of volumes
  - Snapshots - allows for "point in time" copies of your logical volume
-#### Sampling of LVM Commands:
+ - #### Sampling of LVM Commands:
  - pvs: lists out the physical volumes in an LVM group
  - vgs: lists out volume groups within an LVM group
  - lvs: lists out the logical voumes within an LVM group
+ 
+### Differences between MBR and GPT
+#### 
