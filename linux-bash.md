@@ -8,6 +8,7 @@
  ```
  
 ### Exit status
+ - by default, shell script will run through even there is an error in the middle
  - command show the last command exit status, 0 means success and non-zero values mean fail:
   ```
   echo $? 
