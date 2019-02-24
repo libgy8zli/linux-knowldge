@@ -83,3 +83,16 @@
     - rpm -e: uninstalls (erases) an package
     - rpm -Va: verify all installed packages
     - rpm2cpio: converts an .rpm file into a cpio archive file, often combined with the cpio command, i.e. rpm2cpio some.rpm | cpio -idmv
+
+### MBR Partitioning Tools
+ - lsblk: command used to list out block devices (such as hard drives)
+ - fdisk: Legacy command used to create partitions of the MBR (DOS) type
+ - parted: modern command used to create partitions of MBR or GPT types.
+ Partitions ID's:
+  - 83 - standard linux filesytems
+  - 82 - Linux swap partitions
+  - 8e - Linux LVM volumes
+ 
+### GPT Partitioning Tools
+ - gdisk: This is a command in the style of 'fdisk' that can be used to create GPT partitions on disks
+ - parted: The parted command can be used to create both MBR and GPT disk partitions
