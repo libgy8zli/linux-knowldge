@@ -6,3 +6,9 @@
  ```
  shopt -s expand_aliases
  ```
+ 
+### Exit status
+ - command show the last command exit status: 
+  ```
+  echo $? 
+  ```
