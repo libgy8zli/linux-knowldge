@@ -33,3 +33,15 @@
 - grub2-editenv list: view the default boot entry for the grub configuration file
 - grub2-mkconfig: creates (or udpates) a /boot/grub2/grub.cfg file based on entries from the /etc/default/grub file (on Debian systems, the '2' is omitted from the command name. e.g.grub-mkconfig)
 - update-grub: command that can be used to update a GRUB2 configuration after changes to /etc/default/grub have been made, found on Debian based systems
+
+### Shared Libary 
+- Files containing functionality that other applications can use
+- These files end in a '.so' extension for "shared object"
+- Found in the following locations on a linux system:
+  - /lib
+  - /usr/lib64
+  - /usr/local/lib
+  - /usr/share
+- Two types of library files:
+  - Dynamic (ends in .so)
+  - Statically linked (ends in .a)
