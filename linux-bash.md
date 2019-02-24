@@ -25,6 +25,10 @@
   ```
   - escape special character
   ```
-  expr \(2 + 2 \) \* 4
+  expr \(2 + 2 \) \* 4  #  result: 16
   ```
-    result: 16
+  
+### Global and Local Environment Variables
+  - printenv or env: show all or part of environment
+  - set: show all environment to current session
+   
