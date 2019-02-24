@@ -10,7 +10,8 @@
 ### Exit status
  - by default, shell script will run through even there is an error in the middle, but this can be changed:
   ```
-  set -e # this command means exit shell if there is an error 
+  # this command means exit shell if there is an error 
+  set -e 
   ``` 
   
  - command show the last command exit status, 0 means success and non-zero values mean fail:
