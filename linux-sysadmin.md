@@ -127,6 +127,12 @@
   - ls -i
   - df -i
   - du --inodes
+
+### File System Maintenance
+ - fsck: file system check utility, can be invoked via command line and configuration in /etc/fstab. Devices must be unmounted before a check can run.
+ - e2fsck: file system check utility for ext2, ext3, and ext4 file systems, can be used to replay the file systems's journal
+ - mke2fs: utility for creating new ext2, ext3 or ext4 file systems.
+ - tune2fs: Utility used to adjust parameters on a ext2, ext3, or ext4 file system
    
 ### Permissions
  #### Permissions are broken down into three categories:
