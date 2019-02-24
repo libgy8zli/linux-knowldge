@@ -1,10 +1,7 @@
 ### Main File system locations
 - mount: can be used to mount partitions to directories, or show all existing mounts without any options
-
 - lsblk: Used to show all block devices ona system and their names
-
 - fdisk -l /dev/diskname: can be used to list out partition information on the specified disk
-
 - swapon --summery: shows a summayr of the swap usage on a system, same information can be found in /proc/swaps
 
 
@@ -31,3 +28,8 @@
     - Replacement for traditional BIOS, can act in legacy BIOS mode
     - Requires a 64bit operating sytem
     - Prevents unauthorized operating systems from booting on the system
+
+### GRUB2 Configuration Commands:
+- grub2-editenv list: view the default boot entry for the grub configuration file
+- grub2-mkconfig: creates (or udpates) a /boot/grub2/grub.cfg file based on entries from the /etc/default/grub file (on Debian systems, the '2' is omitted from the command name. e.g.grub-mkconfig)
+- update-grub: command that can be used to update a GRUB2 configuration after changes to /etc/default/grub have been made, found on Debian based systems
