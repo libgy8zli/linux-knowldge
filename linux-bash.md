@@ -18,4 +18,13 @@
   ```
   echo $? 
   ```
- - 
+### Arithmetic Operations
+  - use "expr":
+  ```
+  expr 5 + 2
+  ```
+  - escape special character
+  ```
+  expr \(2 + 2 \) \* 4
+  ```
+  result: 16
