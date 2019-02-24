@@ -157,3 +157,8 @@
  - chown: change the ownership of a file or directory
  - chmod: Change the mode of a file or directory
  - chgrp: Change the group ownership of a file or folder
+ 
+### Advanced Permissions:
+ - SUID: The 'set uesr id' bit. FIles with an 's' in the place of the 'x' permission within the user's column have this set. Note that this will not work on Bash scripts anymore. Also, many file systems can be mounted with the 'nosuid' option/
+ - SGID: THe 'set group id' bit. Files and folders with the 's' in the place of the 'x' permission within the groups's column have this set. This assigns group ownership to files. Useful for shared group directions.
+ - Stick Bit: This permission has a 't' in place of an 'x' in the other's column. This permission only allows the creator of a file to remove the file.
