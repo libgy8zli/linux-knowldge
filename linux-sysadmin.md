@@ -112,3 +112,8 @@
       - ext3 - released in 2001, introduced journaling to ext2
       - ext4 - released in 2006, added extra features, meant to be a 'stop-gap' until a better solution comes along
       - XFS  - created in 1993 by Silicon Graphics, inc. For the IRIX operating system. Ported to Linux in 2001
+
+### File System Utilities
+ - mkfs: creates a new file system on a partition, Can be used like so:
+    - mkfs -t [fs-type]
+    - mkfs.[fstype]
