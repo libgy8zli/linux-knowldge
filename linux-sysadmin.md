@@ -118,7 +118,16 @@
     - mkfs -t [fs-type]
     - mkfs.[fstype]
  - blkid: displays the file systems universally unique identifier (UUID)
- 
+
+### Disk usage
+ - df: command that show the available disk on a file system
+ - du: command that displays the amount of disk space in use
+ - inode: an inode (index node) stores information about files and folders, such as: permissions, ownership and file type. Most file systems contain a maximum number of inodes that it can contain.
+ commands that display inode information:
+  - ls -i
+  - df -i
+  - du --inodes
+   
 ### Permissions
  #### Permissions are broken down into three categories:
     user group other/world
