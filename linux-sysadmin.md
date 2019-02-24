@@ -96,3 +96,9 @@
 ### GPT Partitioning Tools
  - gdisk: This is a command in the style of 'fdisk' that can be used to create GPT partitions on disks
  - parted: The parted command can be used to create both MBR and GPT disk partitions
+ 
+### Swap Partitionging Tools
+ - fdisk, gdisk, parted: any of these tools can be used to create swap partitions.
+ - mkswap: This command is used to format a partition to be used as swap space.
+ - swapon: Enables a swap partition or file
+ - swapoff: Disables a swap partition or file.
