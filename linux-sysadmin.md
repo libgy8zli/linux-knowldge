@@ -72,3 +72,7 @@
   - The rpm database:
     - Located in /var/lib/rpm
     - Use the rpm --builddb command to repair a corrupted rpm database
+  - Dependencies need to already be installed, or installed with the package
+    - yum handles dependencies for you, rpm does not
+  #### rpm commands
+    - rpm-qpi: displays information on a package 
