@@ -45,3 +45,30 @@
 - Two types of library files:
   - Dynamic (ends in .so)
   - Statically linked (ends in .a)
+ #### Managing Shared Libraries
+  - ldd: prints out shared object (library) dependencies
+  - ldconfig: configures dynamic linker run-time bindings, creates a cache based on library directories and can show you what is currently cached
+  - /etc/ld.so.conf: configuration file that points to directories and other configuration files that hold references to library directory locations
+  - LD_LIBRARY_PATH: Legacy environment variable that points to a path where library files can be read from 
+
+### yum commands:
+ - yum update:  searches online repositories for updated packages compared to what is currently installed on the system, upgrades packages
+ - yum search: search the yum repositores for a specified package
+ - yum info: list information about a specified pakcage
+ - yum list installed: displays all installed packages
+ - yum clean all: cleans up all of yum's cache information and its local database file
+ - yum install: installs a specified package and all of its dependencies
+ - yum remove: uninstalles a package, leaves dependencies behind
+ - yum autoremove: uninstalls a package and its dependencies
+ - yum whatprovides: find out what package provides a specified file name
+ - yum reinstall: reinstalls a package
+ 
+ ### Red Hat Package Manager (RPM):
+  - The .rpm package contains:
+    - Application or utility
+    - Default configuration files
+    - How and where to install the files that come with the package
+    - Listing of dependencies that the package requires
+  - The rpm database:
+    - Located in /var/lib/rpm
+    - Use the rpm --builddb command to repair a corrupted rpm database
