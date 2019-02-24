@@ -118,3 +118,17 @@
     - mkfs -t [fs-type]
     - mkfs.[fstype]
  - blkid: displays the file systems universally unique identifier (UUID)
+ 
+### Permissions
+ #### Permissions are broken down into three categories:
+    user group other/world
+    - Symbolic Permissions:
+      - r: read 
+      - w: write
+      - x: execute
+      - -: no permission
+    - Octal Permission:
+      - 4: read
+      - 2: write
+      - 1: execute
+      - 0: no permission
