@@ -132,3 +132,7 @@
        2: write
        1: execute
        0: no permission
+### Modifying Permissions:
+ - chown: change the ownership of a file or directory
+ - chmod: Change the mode of a file or directory
+ - chgrp: Change the group ownership of a file or folder
