@@ -102,3 +102,13 @@
  - mkswap: This command is used to format a partition to be used as swap space.
  - swapon: Enables a swap partition or file
  - swapoff: Disables a swap partition or file.
+
+### Linux File Systems
+ #### Non-Journaling:
+   - ext2 - legacy linux file system, releasted in 1993
+ #### Journaling:
+   - Uses a journal to keep track of changes that have not yet been written to the file system.
+   - Examples:
+      - ext3 - released in 2001, introduced journaling to ext2
+      - ext4 - released in 2006, added extra features, meant to be a 'stop-gap' until a better solution comes along
+      - XFS  - created in 1993 by Silicon Graphics, inc. For the IRIX operating system. Ported to Linux in 2001
