@@ -74,5 +74,12 @@
     - Use the rpm --builddb command to repair a corrupted rpm database
   - Dependencies need to already be installed, or installed with the package
     - yum handles dependencies for you, rpm does not
-  #### rpm commands
-    - rpm-qpi: displays information on a package 
+  #### rpm commands:
+    - rpm -qpi: displays information on a package 
+    - rpm -qpl: lists files in a package
+    - rpm - qa: lists out all installed packages
+    - rpm -i: installs a specified package, often combined  with other options to provide more verbose output, i.e rpm -ivh
+    - rpm -U: upgrades an installed package with a newer version
+    - rpm -e: uninstalls (erases) an package
+    - rpm -Va: verify all installed packages
+    - rpm2cpio: converts an .rpm file into a cpio archive file, often combined with the cpio command, i.e. rpm2cpio some.rpm | cpio -idmv
