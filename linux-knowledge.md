@@ -4,9 +4,10 @@ head -c 107374182 </dev/urandom >myfile
 
 #### get the attached role for current ec2 
 #### you also need qr installed to parse the JSON returned from cURL
-curl http://169.254.169.254/latest/meta-data/iam/security-credentials/your-role-name
 
 `
+curl http://169.254.169.254/latest/meta-data/iam/security-credentials/your-role-name
+
 temp_creds=$(curl http://169.254.169.254/latest/meta-data/iam/security-credentials/$(curl http://169.254.169.254/latest/meta-data/iam/security-credentials/)/ | jq -r '.AccessKeyId, .SecretAccessKey, .Token')
 
 echo tempcreds are $temp_creds
