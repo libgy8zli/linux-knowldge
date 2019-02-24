@@ -117,3 +117,4 @@
  - mkfs: creates a new file system on a partition, Can be used like so:
     - mkfs -t [fs-type]
     - mkfs.[fstype]
+ - blkid: displays the file systems universally unique identifier (UUID)
