@@ -73,3 +73,6 @@ echo "File was Read on: `date`" >&5
 
 exec 5>&-  # close file descriptor
 ```
+
+### IFS
+IFS stands for "internal field separator". It is used by the shell to determine how to do word splitting,
