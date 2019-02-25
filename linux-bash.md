@@ -46,3 +46,15 @@ echo "$[ 2 * 2 ]" # result is 4
 echo "Your first name:"
 read FIRSTNAME
 ```
+
+### Passing Variables to Scripts at the command line
+ - var_pass.sh:  
+   ```
+   #!/bin/bash
+   echo "This variable is passed to the script at run time: $1"
+   ```
+ - command line:
+  ```
+  var_pass.sh HelloWorld
+  This variable is passed to the script at run time: HelloWorld # expected result
+  ```
