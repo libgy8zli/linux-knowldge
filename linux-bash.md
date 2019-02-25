@@ -58,3 +58,17 @@ read FIRSTNAME
   var_pass.sh HelloWorld
   This variable is passed to the script at run time: HelloWorld # expected result
   ```
+### File descriptor
+
+```
+echo "Enter a file name to read:
+read FILE
+
+exec 5<>$FILE # pick a number ge than 3 
+
+while read -r SUPERHERO; do
+  echo "Superhero Name: $SUPERHERO"
+done <&5
+
+echo "File was Read on: `date`" >&5
+```
