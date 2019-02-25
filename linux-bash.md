@@ -77,4 +77,5 @@ exec 5>&-  # close file descriptor
 ### IFS
 IFS stands for "internal field separator". It is used by the shell to determine how to do word splitting
 
-
+### [Trap and Signal](https://www.computerhope.com/unix/utrap.htm)
+trap defines and activates handlers to be run when the shell receives signals or other special conditions.
