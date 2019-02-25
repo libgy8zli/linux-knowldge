@@ -58,8 +58,7 @@ read FIRSTNAME
   var_pass.sh HelloWorld
   This variable is passed to the script at run time: HelloWorld # expected result
   ```
-### File descriptor
-  [File descriptor](https://www.computerhope.com/jargon/f/file-descriptor.html)
+### [File descriptor](https://www.computerhope.com/jargon/f/file-descriptor.htm)
 ```
 echo "Enter a file name to read:
 read FILE
