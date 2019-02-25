@@ -33,11 +33,16 @@
   - set: show all environment to current session
    
 ### Shell Expansion
-
 ```
 echo sh{ot,ort,oot}
 shot short shoot # result
 echo ~+ # echo out current dir
 echo "${VARNAME:=value}" # set and echo variable 
 echo "$[ 2 * 2 ]" # result is 4
+```
+
+### Interactive scripting
+```
+echo "Your first name:"
+read FIRSTNAME
 ```
