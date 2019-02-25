@@ -37,4 +37,5 @@
 ```
 echo sh{ot,ort,oot}
 shot short shoot # result
+echo ~+ # echo out current dir
 ```
