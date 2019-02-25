@@ -32,3 +32,9 @@
   - printenv or env: show all or part of environment
   - set: show all environment to current session
    
+### Shell Expansion
+
+```
+echo sh{ot,ort,oot}
+shot short shoot # result
+```
