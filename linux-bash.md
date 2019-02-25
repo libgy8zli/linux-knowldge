@@ -71,4 +71,6 @@ while read -r SUPERHERO; do
 done <&5
 
 echo "File was Read on: `date`" >&5
+
+exec 5>&-  # close file descriptor
 ```
