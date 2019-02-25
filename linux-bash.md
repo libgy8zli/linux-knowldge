@@ -59,7 +59,7 @@ read FIRSTNAME
   This variable is passed to the script at run time: HelloWorld # expected result
   ```
 ### File descriptor
-
+  [File descriptor](https://www.computerhope.com/jargon/f/file-descriptor.html)
 ```
 echo "Enter a file name to read:
 read FILE
